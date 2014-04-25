@@ -17,6 +17,24 @@ projects: [spring-data-rest]
 :source-highlighter: prettify
 :project_id: gs-accessing-neo4j-data-rest
 
+== Update: Football/Soccer Demo
+
+The rest of this guide is a copy of the original spring.io guide for getting started with Spring-Boot, SDN and SD-REST.
+
+I changed the domain to football and created these entities:
+
+* Team
+* Player
+* Match
+* City
+
+A simplistic dataset is created in the DatabasePopulator.
+
+image::https://dl.dropboxusercontent.com/u/14493611/football_domain_sdn.png[]
+
+
+*** 
+
 This guide walks you through the process of creating an application that accesses graph-based data through a link:/guides/gs/rest-hateoas[hypermedia-based] link:/understanding/REST[RESTful front end].
 
 == What you'll build
